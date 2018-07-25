@@ -1,6 +1,7 @@
 ---
 
 - hosts: all
+  gather_facts: false
   tasks:
   - name: df
     shell: df -h
