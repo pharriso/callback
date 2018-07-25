@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+  - name: df
+    shell: df -h
